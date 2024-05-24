@@ -21,7 +21,7 @@ To run this project, you'll need the following dependencies:
 The key steps of the algorithm are as follows:
 
 1. **Signature Matrix Creation**: The input data is transformed into a signature matrix, where each item (article) has a set of signatures.
-2. **Hash Function**: The `g_hash_function_k8` function hashes the signature matrix. Random coefficients and a prime number are used to compute the hash values.
+2. **Hash Function**: The `g_hash_function_k*` function hashes the signature matrix. Random coefficients and a prime number are used to compute the hash values.
 3. **Signature Extraction**: The signatures of each article are extracted from the signature matrix.
 4. **Finding Same Bucket**: Articles with the same bucket number as the target article are retrieved.
 5. **Evaluation**: The true positives (TP), false positives (FP), and false negatives (FN) are calculated for different values of `k`.
